@@ -3,10 +3,18 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin: 0px;
-  padding: 50px;
+  margin: 100px;
+  padding: 20px;
   
   font-family: 'Open Sans', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  /* background-color: gray; */
+  padding: 10px;
 }
 
 .info{
